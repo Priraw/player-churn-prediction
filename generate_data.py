@@ -12,6 +12,8 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import json
+import os
+from sklearn.model_selection import train_test_split
 
 # Set random seed for reproducibility
 np.random.seed(42)
@@ -305,40 +307,46 @@ if __name__ == "__main__":
     generator = GamingDataGenerator(n_players=10000)
     df = generator.generate_dataset()
     
-    print()
-    print("=" * 70)
-    print("DATASET STATISTICS")
-    print("=" * 70)
-    print()
-    print(df.describe())
-    print()
-    print("Correlations with 7-day churn:")
-    print(df.corr()['churned_7day'].sort_values(ascending=False))
+   
+    # Save full dataset
+    df.to_csv('gaming_churn_data.csv', index=False)
+    print(f"✓ Dataset saved to gaming_churn_data.csv")
     
-    # Save dataset
-    print()
-    print("=" * 70)
-    print("SAVING FILES")
-    print("=" * 70)
-    print()
-    generator.save_dataset(df, 'gaming_churn_data.csv')
+    # Save data dictionary
+    data_dict = {
+        'dataset_info': {
+            'name': 'Gaming Player Churn Dataset',
+            'rows': len(df),
+            'created': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            'author': 'Priyanka Rawat'
+        }
+    }
     
-    # Create train/test split files
-    from sklearn.model_selection import train_test_split
+    with open('gaming_churn_data_dictionary.json', 'w') as f:
+        json.dump(data_dict, f, indent=2)
+    print(f"✓ Data dictionary saved")
     
+    # Create train/test split
     train_df, test_df = train_test_split(df, test_size=0.2, random_state=42, stratify=df['segment'])
     train_df.to_csv('gaming_churn_train.csv', index=False)
     test_df.to_csv('gaming_churn_test.csv', index=False)
     
-    print(f"✓ Training set saved: {len(train_df)} records (gaming_churn_train.csv)")
-    print(f"✓ Test set saved: {len(test_df)} records (gaming_churn_test.csv)")
+    print(f"✓ Training set saved: {len(train_df)} records")
+    print(f"✓ Test set saved: {len(test_df)} records")
+    
+    # Verify files exist
+    print()
+    print("Verifying files:")
+    for filename in ['gaming_churn_data.csv', 'gaming_churn_train.csv', 'gaming_churn_test.csv']:
+        if os.path.exists(filename):
+            size = os.path.getsize(filename) / 1024
+            print(f"  ✓ {filename} ({size:.1f} KB)")
+        else:
+            print(f"  ✗ {filename} NOT FOUND!")
     
     print()
     print("=" * 70)
     print("✓ DATA GENERATION COMPLETE!")
     print("=" * 70)
     print()
-    print("Next steps:")
-    print("1. Run EDA notebook to explore the data")
-    print("2. Train churn prediction model")
-    print("3. Deploy FastAPI backend")
+    print("Next step: python feature_engineering.py")
