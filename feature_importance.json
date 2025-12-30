@@ -1,0 +1,382 @@
+{
+  "7day": [
+    {
+      "feature": "days_since_last_login",
+      "importance": 0.6369102597236633
+    },
+    {
+      "feature": "recency_score",
+      "importance": 0.3550650179386139
+    },
+    {
+      "feature": "inactivity_risk",
+      "importance": 0.008024659939110279
+    },
+    {
+      "feature": "session_frequency_per_week",
+      "importance": 0.0
+    },
+    {
+      "feature": "avg_session_duration_min",
+      "importance": 0.0
+    },
+    {
+      "feature": "total_playtime_hours",
+      "importance": 0.0
+    },
+    {
+      "feature": "days_since_registration",
+      "importance": 0.0
+    },
+    {
+      "feature": "friend_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "chat_messages_sent",
+      "importance": 0.0
+    },
+    {
+      "feature": "in_game_purchases_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "level_reached",
+      "importance": 0.0
+    },
+    {
+      "feature": "engagement_score",
+      "importance": 0.0
+    },
+    {
+      "feature": "play_intensity",
+      "importance": 0.0
+    },
+    {
+      "feature": "total_spending_usd",
+      "importance": 0.0
+    },
+    {
+      "feature": "achievement_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "achievement_velocity",
+      "importance": 0.0
+    },
+    {
+      "feature": "session_consistency",
+      "importance": 0.0
+    },
+    {
+      "feature": "spending_per_session",
+      "importance": 0.0
+    },
+    {
+      "feature": "spending_per_hour",
+      "importance": 0.0
+    },
+    {
+      "feature": "avg_transaction_value",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_spender",
+      "importance": 0.0
+    },
+    {
+      "feature": "social_score",
+      "importance": 0.0
+    },
+    {
+      "feature": "purchase_frequency",
+      "importance": 0.0
+    },
+    {
+      "feature": "chat_per_friend",
+      "importance": 0.0
+    },
+    {
+      "feature": "social_ratio",
+      "importance": 0.0
+    },
+    {
+      "feature": "leveling_speed",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_social",
+      "importance": 0.0
+    },
+    {
+      "feature": "achievement_completion_rate",
+      "importance": 0.0
+    },
+    {
+      "feature": "progression_score",
+      "importance": 0.0
+    },
+    {
+      "feature": "fast_progressor",
+      "importance": 0.0
+    },
+    {
+      "feature": "activity_decay",
+      "importance": 0.0
+    },
+    {
+      "feature": "expected_next_login",
+      "importance": 0.0
+    },
+    {
+      "feature": "overdue_for_login",
+      "importance": 0.0
+    },
+    {
+      "feature": "engagement_spending_ratio",
+      "importance": 0.0
+    },
+    {
+      "feature": "activity_consistency",
+      "importance": 0.0
+    },
+    {
+      "feature": "progression_balance",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_inactive",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_low_engagement",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_declining",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_no_friends",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_no_spending",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_short_sessions",
+      "importance": 0.0
+    },
+    {
+      "feature": "total_risk_flags",
+      "importance": 0.0
+    },
+    {
+      "feature": "high_risk",
+      "importance": 0.0
+    },
+    {
+      "feature": "segment_encoded",
+      "importance": 0.0
+    },
+    {
+      "feature": "above_segment_avg",
+      "importance": 0.0
+    },
+    {
+      "feature": "spending_vs_segment",
+      "importance": 0.0
+    }
+  ],
+  "30day": [
+    {
+      "feature": "days_since_last_login",
+      "importance": 0.648253858089447
+    },
+    {
+      "feature": "recency_score",
+      "importance": 0.34104156494140625
+    },
+    {
+      "feature": "inactivity_risk",
+      "importance": 0.008178026415407658
+    },
+    {
+      "feature": "activity_decay",
+      "importance": 0.0011307097738608718
+    },
+    {
+      "feature": "session_frequency_per_week",
+      "importance": 0.0004994507762603462
+    },
+    {
+      "feature": "engagement_score",
+      "importance": 0.0004858781467191875
+    },
+    {
+      "feature": "friend_count",
+      "importance": 0.00041053100721910596
+    },
+    {
+      "feature": "achievement_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "total_spending_usd",
+      "importance": 0.0
+    },
+    {
+      "feature": "in_game_purchases_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "chat_messages_sent",
+      "importance": 0.0
+    },
+    {
+      "feature": "level_reached",
+      "importance": 0.0
+    },
+    {
+      "feature": "avg_session_duration_min",
+      "importance": 0.0
+    },
+    {
+      "feature": "total_playtime_hours",
+      "importance": 0.0
+    },
+    {
+      "feature": "days_since_registration",
+      "importance": 0.0
+    },
+    {
+      "feature": "achievement_velocity",
+      "importance": 0.0
+    },
+    {
+      "feature": "session_consistency",
+      "importance": 0.0
+    },
+    {
+      "feature": "play_intensity",
+      "importance": 0.0
+    },
+    {
+      "feature": "spending_per_hour",
+      "importance": 0.0
+    },
+    {
+      "feature": "avg_transaction_value",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_spender",
+      "importance": 0.0
+    },
+    {
+      "feature": "spending_per_session",
+      "importance": 0.0
+    },
+    {
+      "feature": "purchase_frequency",
+      "importance": 0.0
+    },
+    {
+      "feature": "chat_per_friend",
+      "importance": 0.0
+    },
+    {
+      "feature": "social_score",
+      "importance": 0.0
+    },
+    {
+      "feature": "social_ratio",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_social",
+      "importance": 0.0
+    },
+    {
+      "feature": "achievement_completion_rate",
+      "importance": 0.0
+    },
+    {
+      "feature": "leveling_speed",
+      "importance": 0.0
+    },
+    {
+      "feature": "fast_progressor",
+      "importance": 0.0
+    },
+    {
+      "feature": "progression_score",
+      "importance": 0.0
+    },
+    {
+      "feature": "expected_next_login",
+      "importance": 0.0
+    },
+    {
+      "feature": "overdue_for_login",
+      "importance": 0.0
+    },
+    {
+      "feature": "engagement_spending_ratio",
+      "importance": 0.0
+    },
+    {
+      "feature": "activity_consistency",
+      "importance": 0.0
+    },
+    {
+      "feature": "progression_balance",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_inactive",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_low_engagement",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_declining",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_no_friends",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_no_spending",
+      "importance": 0.0
+    },
+    {
+      "feature": "risk_short_sessions",
+      "importance": 0.0
+    },
+    {
+      "feature": "total_risk_flags",
+      "importance": 0.0
+    },
+    {
+      "feature": "high_risk",
+      "importance": 0.0
+    },
+    {
+      "feature": "segment_encoded",
+      "importance": 0.0
+    },
+    {
+      "feature": "above_segment_avg",
+      "importance": 0.0
+    },
+    {
+      "feature": "spending_vs_segment",
+      "importance": 0.0
+    }
+  ]
+}

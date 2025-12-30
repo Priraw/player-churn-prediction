@@ -1,0 +1,48 @@
+{
+  "7day": {
+    "roc_auc": 1.0,
+    "f1_score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "confusion_matrix": [
+      [
+        1636,
+        0
+      ],
+      [
+        0,
+        364
+      ]
+    ],
+    "business_metrics": {
+      "churners_saved": 109.2,
+      "value_saved": 5460.0,
+      "total_retention_cost": 1820.0,
+      "net_value": 3640.0,
+      "roi_percent": 200.0
+    }
+  },
+  "30day": {
+    "roc_auc": 0.9999999999999999,
+    "f1_score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "confusion_matrix": [
+      [
+        1995,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "business_metrics": {
+      "churners_saved": 1.5,
+      "value_saved": 75.0,
+      "total_retention_cost": 25.0,
+      "net_value": 50.0,
+      "roi_percent": 200.0
+    }
+  }
+}

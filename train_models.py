@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-import xgboost as xgb
+import xgboost as xgb  # pyright: ignore[reportMissingImports]
 import joblib
 import json
 from datetime import datetime
