@@ -10,8 +10,3 @@ uvicorn[standard]==0.24.0
 pydantic==2.4.2
 python-multipart==0.0.6
 pyyaml==6.0.1
-fastapi
-uvicorn
-pydantic
-joblib
-python-multipart
