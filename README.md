@@ -61,7 +61,7 @@ Explore the analysis:
 
 ## 📖 Read More
 
-**Medium Article**: [Building a Production-Ready Churn Prediction System](YOUR-MEDIUM-LINK)
+**Medium Article**: [Building a Production-Ready Churn Prediction System](https://medium.com/@pri00raw/7c92b5e1a401)
 
 Detailed writeup covering:
 - Problem framing & data generation
