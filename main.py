@@ -15,6 +15,10 @@ Date: December 2025
 
 Run with: uvicorn main:app --reload
 """
+import os
+
+# Production settings
+PORT = int(os.getenv("PORT", 8000))
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -357,4 +361,4 @@ async def get_feature_importance(model_type: str):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=PORT)

@@ -1,5 +1,9 @@
 # Player Churn Prediction
 
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)](https://www.postgresql.org/)
+
 🎮 AI-powered retention analytics for gaming companies
 
 ## 🎯 Problem
