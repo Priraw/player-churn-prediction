@@ -37,11 +37,6 @@ python train_models.py
 # Start API
 python main.py
 
-# Access API docs
-open http://localhost:8000/docs
-
-
-
 ## 🔬 Notebooks
 
 Explore the analysis:
